@@ -1,0 +1,64 @@
+.mainheading{
+    text-align: center;
+    color: orchid;
+    font-family: Arial;
+
+}
+nav{
+    display: flex;
+    gap: 5em;
+    background-color: black;
+    padding: 1.5vh;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    background-color: red;
+    padding: 0.3vh;
+}
+.hero{
+    display: flex;
+    
+}
+.hero img{
+    height:50vh ;
+    width: 50 vw;
+    margin-right: 1vw
+;
+}
+.image-fit-lab div {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.image-fit-lab{
+    display: flex;
+}
+.fit-contain img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.fit-fill img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.ctnbutton{
+    color: white;
+    background-color: green;
+    padding: 1vh 1vw;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.fit-cover img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
