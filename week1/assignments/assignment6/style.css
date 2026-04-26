@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.portfolio-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 15px 10vw;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.portfolio-hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vh 10vw;
+    flex-wrap: wrap;
+}
+
+.home-profile{
+    max-width: 500px;
+}
+
+#hello{
+    font-size: 1.2rem;
+}
+
+.objective{
+    margin: 1rem 0;
+}
+
+
+.container{
+    max-width: 250px;
+}
+
+.container img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.typingtext{
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black;
+    width: 0;
+    animation: typing 5s steps(40) infinite, blink 0.7s infinite;
+}
+
+@keyframes typing{
+    0%{ width: 0; }
+    50%{ width: 100%; }
+    100%{ width: 0; }
+}
+
+@keyframes blink{
+    50%{ border-color: transparent; }
+}
+
+
+button{
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+section{
+    padding: 5vh 10vw;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card{
+    background: #f1f5f9;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover{
+    transform: translateY(-5px);
+    background: #dbeafe;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+
+@media (max-width: 768px){
+
+    .portfolio-header{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .portfolio-hero{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container{
+        margin-top: 20px;
+    }
+
+    .project-grid{
+        grid-template-columns: 1fr;
+    }
+}
+.btnproj a{
+    text-decoration: none;
+    color: white;
+
+}
