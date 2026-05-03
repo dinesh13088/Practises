@@ -1,0 +1,11 @@
+.main-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 233, 234);
+    opacity: 0.6;
+    margin:8% 30%;
+    border-radius: 20px;
+    box-shadow: 7px 5px 5px black;
+}

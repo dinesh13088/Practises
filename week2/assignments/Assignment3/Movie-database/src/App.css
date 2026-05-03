@@ -1,0 +1,10 @@
+.header{
+    background:linear-gradient(to left,rgb(75, 166,125),rgb(100, 216, 204));
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.movieslist{
+    display: flex;
+    flex-wrap: wrap;
+}
