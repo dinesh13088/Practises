@@ -1,0 +1,27 @@
+.main {
+    grid-area: main;
+    background-color: rgb(249, 250, 251);
+    padding: 20px 10px;
+
+}
+
+.main .meeting-details-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color: rgb(132, 131, 131);
+    
+
+}
+.Cards{
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+.dashboard-meeting-card-container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}

@@ -1,0 +1,42 @@
+.sidebar-heading{
+    display: flex;
+   
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.sidebar{
+  grid-area:sidebar;
+  background-color: rgb(255, 255,255);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: solid whitesmoke;
+  color: black;
+
+}
+.nav-link a{
+    text-decoration: none;
+    color: black;
+}
+.nav-link ul{
+    list-style: none;
+}
+.nav-link ul li{
+    display: flex;
+    gap: 10px;
+    padding: 15px 5px;
+    display: block;
+}
+.nav-link a.active-link {
+    background-color: rgb(226,231,253);
+    padding: 10px;
+    border-radius: 10px;
+}
+.active-li {
+    background-color: rgb(226,231,253);
+    border-radius: 10px;
+}

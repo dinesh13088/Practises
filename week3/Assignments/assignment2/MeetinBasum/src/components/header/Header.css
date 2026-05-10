@@ -1,0 +1,16 @@
+.header{
+  grid-area:header;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid whitesmoke;
+ 
+}
+.header .icons{
+  padding: 10px;
+}
+.header .divider{
+  padding-left:10px;
+}

@@ -1,0 +1,44 @@
+.meeting-card-container{
+   background-color: rgb(255, 255, 255);
+    border: 1px whitesmoke;
+    box-shadow: 2px 2px 10px rgb(215, 215, 215);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    margin:  5px 0px;
+    
+    
+
+}
+
+.meeting-card-small-container{
+    height: 4vh;
+    width: 2.3vw;
+    max-width: 2.3vw;
+    max-height: 4vh;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meeting-details p{
+font-size: 12px;
+
+}
+.join-details{
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.meeting-card-button{
+    padding:5px 10px;
+   
+    border-radius: 8px;
+    color: white;
+    border: none;
+
+}
